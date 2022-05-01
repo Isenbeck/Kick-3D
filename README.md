@@ -3,8 +3,7 @@ Commodore 64 3D engine
 
 I have made a small C64 program to see if I can make a 3D engine, just for fun. And I have never had an intention to build the full game engine. 
 But, since I already have something that is, I believe, usable, I would like for somebody to use it.
-The program uses only PETSCII graphics. 
-
+The graphics display has 80x50 pixels resolution, but the program in fact uses PETscii graphics.
 There is a precompiled version of the program "kick3d.prg" which you can run in your emulator or your C64 machine.
 
 The program starts in the 2D view mode.
