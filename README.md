@@ -19,4 +19,27 @@ If you have the VICE emulator set up to run by the C64Studio, the program will c
 ### kick3d.asm
 This module is used as a manager module through which the program is assembled.
 
-### 
+### main.asm
+This module contains the main program loop, setup, and some global routines.
+
+### math.asm
+This module contains mathematical functions. And only three mathematical functions are used in this program: sine, cosine, and multiplication. 
+
+### user.asm
+This module contains routines used to control the interaction with the user and control player actions.
+There are joystick control routines, keyboard control routines, and player map events control.
+
+### display.asm
+This module contains routines for graphics display. 
+
+### sprites.asm
+
+### raycast.asm
+
+### rayscan.asm
+
+### interrupts.asm
+
+### resources.asm
+
+### tables.asm
