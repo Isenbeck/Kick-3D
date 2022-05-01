@@ -5,7 +5,6 @@ I have made a small C64 program to see if I can make a 3D engine, just for fun. 
 But, since I already have something that is usable, I would like for somebody to use it.
 
 The graphics display has 80x50 pixels resolution, but the program in fact uses PETscii graphics.
-There is a precompiled version of the program "kick3d.prg" which you can run in your emulator or your C64 machine.
 
 The program starts in the 2D view mode.
 To switch to the 3D and back to the 2D view mode press the `S` button.
@@ -14,6 +13,9 @@ Player can strife left and right by using `Q` and `W` buttons. Otherwise, use th
 On the map, you can see two map events called A and B. The event A will paint the part of the wall to indicate that there is a hidden door. If you press the joystick button, the wall will open. The event B is example of "open the door" event, or beter to say "open the wall."
 
 The project is written in the C64Studio software (https://www.c64-wiki.com/wiki/C64_Studio).
+
+## Run the program
+There is a precompiled version of the program "kick3d.prg" which you can run in your emulator or your C64 machine.
 
 ## Open the project
 Start the C64Studio, select `File > Open > Solution or project...`
