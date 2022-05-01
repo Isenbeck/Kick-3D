@@ -10,7 +10,7 @@ The program starts in the 2D view mode.
 To switch to the 3D and back to the 2D view mode press the `S` button.
 
 Player can strife left and right by using `Q` and `W` buttons. Otherwise, use the joystick to control the player.
-On the map, you can see two map events called A and B. The event A will paint the part of the wall to indicate that there is a hidden door. If you press the joystick button, the wall will open. The event B is example of "open the door" event, or beter to say "open the wall."
+There are two "events" marked on the map - event A and event B. When the player steps on the cell marked with the letter A, the part of the wall will be painted, indicating a hidden passage. If you press the joystick button while on that cell, the wall will open. Event B is an example of an "open the door" event, or better to say "open the wall."
 
 The project is written in the C64Studio software (https://www.c64-wiki.com/wiki/C64_Studio).
 
