@@ -4,7 +4,7 @@ Commodore 64 3D engine demo
 I have made a small C64 program to see if I can make a 3D engine, just for fun. I never had an intention to build the full game engine or a game. 
 But, since I already have something that is usable, I would like for somebody to use it.
 
-The graphics display has 80x50 pixels resolution, but the program in fact uses PETscii graphics.
+The graphics display has 80x50 pixels resolution. Actually, the program uses PETSCII graphics, and all graphics in the 3D mode are made of 16 characters.
 
 The program starts in the 2D view mode.
 To switch to the 3D and back to the 2D view mode press the `S` button.
