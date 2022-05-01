@@ -1,0 +1,18 @@
+﻿Demo 3D Kick
+by Dario Marinović
+April 2022
+
+
+BasicUpstart2(main)
+
+#import "mapping.asm"
+#import "main.asm"
+#import "math.asm"
+#import "user.asm"
+#import "display.asm"
+#import "sprites.asm"
+#import "raycasting.asm"
+#import "rayscan.asm"
+#import "interrupts.asm"
+#import "resources.asm"
+#import "tables.asm"
