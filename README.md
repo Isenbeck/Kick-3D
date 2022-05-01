@@ -24,7 +24,9 @@ Select the "kick3d.asm" tab in the C64Studio and then select `Build > Build and 
 
 If you have the VICE emulator set up to run by the C64Studio, the program will compile and run in the emulator.
 
-## About the software
+## About the code
+The code could be faster than it is. Instead, I wrote the code to be as clean as possible. There are no self-modifying code sections. And I have commented on the code as best I could.
+
 Software is broken into several modules.
 
 ### kick3d.asm
