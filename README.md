@@ -1,5 +1,5 @@
 # Kick-3D
-Commodore 64 3D engine
+Commodore 64 3D engine demo
 
 I have made a small C64 program to see if I can make a 3D engine, just for fun. I never had an intention to build the full game engine or a game. 
 But, since I already have something that is usable, I would like for somebody to use it.
