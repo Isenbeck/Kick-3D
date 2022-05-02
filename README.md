@@ -1,16 +1,16 @@
 # Kick-3D
-Commodore 64 3D engine
+Commodore 64 3D engine demo
 
 I have made a small C64 program to see if I can make a 3D engine, just for fun. I never had an intention to build the full game engine or a game. 
 But, since I already have something that is usable, I would like for somebody to use it.
 
-The graphics display has 80x50 pixels resolution, but the program in fact uses PETscii graphics.
+The graphics display has 80x50 pixels resolution. Actually, the program uses PETSCII graphics, and all graphics in the 3D mode are made of 16 characters.
 
 The program starts in the 2D view mode.
 To switch to the 3D and back to the 2D view mode press the `S` button.
 
 Player can strife left and right by using `Q` and `W` buttons. Otherwise, use the joystick to control the player.
-On the map, you can see two map events called A and B. The event A will paint the part of the wall to indicate that there is a hidden door. If you press the joystick button, the wall will open. The event B is example of "open the door" event, or beter to say "open the wall."
+There are two "events" marked on the map - event A and event B. When the player steps on the cell marked with the letter A, the part of the wall will be painted, indicating a hidden passage. If you press the joystick button while on that cell, the wall will open. Event B is an example of an "open the door" event, or better to say "open the wall."
 
 The project is written in the C64Studio software (https://www.c64-wiki.com/wiki/C64_Studio).
 
@@ -27,7 +27,7 @@ Select the "kick3d.asm" tab in the C64Studio and then select `Build > Build and 
 If you have the VICE emulator set up to run by the C64Studio, the program will compile and run in the emulator.
 
 ## About the code
-The code could be faster than it is. Instead, I wrote the code to be as clean as possible. There are no self-modifying code sections. And I have commented on the code as best I could.
+The code could be faster than it is. I have opted to have a clean code rather than the fastest one. There are no self-modifying code sections. And I have commented on the code as best I could.
 
 Software is broken into several modules.
 
